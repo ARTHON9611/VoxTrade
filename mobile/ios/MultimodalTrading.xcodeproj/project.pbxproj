@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1B2C3D2B0A1E2F00D4E5F6 /* MultimodalTradingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C3C2B0A1E2F00D4E5F6 /* MultimodalTradingApp.swift */; };
+		8A1B2C3F2B0A1E2F00D4E5F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C3E2B0A1E2F00D4E5F6 /* ContentView.swift */; };
+		8A1B2C412B0A1E3100D4E5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B2C402B0A1E3100D4E5F6 /* Assets.xcassets */; };
+		8A1B2C442B0A1E3100D4E5F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B2C432B0A1E3100D4E5F6 /* Preview Assets.xcassets */; };
+		8A1B2C4E2B0A1E3100D4E5F6 /* MultimodalTradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C4D2B0A1E3100D4E5F6 /* MultimodalTradingTests.swift */; };
+		8A1B2C582B0A1E3100D4E5F6 /* MultimodalTradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C572B0A1E3100D4E5F6 /* MultimodalTradingUITests.swift */; };
+		8A1B2C5A2B0A1E3100D4E5F6 /* MultimodalTradingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C592B0A1E3100D4E5F6 /* MultimodalTradingUITestsLaunchTests.swift */; };
+		8A1B2C672B0A1E5A00D4E5F6 /* TradingDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C662B0A1E5A00D4E5F6 /* TradingDashboardView.swift */; };
+		8A1B2C692B0A1E6B00D4E5F6 /* VisualInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C682B0A1E6B00D4E5F6 /* VisualInterfaceView.swift */; };
+		8A1B2C6B2B0A1E7900D4E5F6 /* VoiceInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C6A2B0A1E7900D4E5F6 /* VoiceInterfaceView.swift */; };
+		8A1B2C6D2B0A1E8700D4E5F6 /* TextInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C6C2B0A1E8700D4E5F6 /* TextInterfaceView.swift */; };
+		8A1B2C6F2B0A1E9700D4E5F6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C6E2B0A1E9700D4E5F6 /* AuthViewModel.swift */; };
+		8A1B2C712B0A1EA500D4E5F6 /* TradingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C702B0A1EA500D4E5F6 /* TradingViewModel.swift */; };
+		8A1B2C732B0A1EB300D4E5F6 /* ModalityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C722B0A1EB300D4E5F6 /* ModalityViewModel.swift */; };
+		8A1B2C752B0A1EC100D4E5F6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C742B0A1EC100D4E5F6 /* APIService.swift */; };
+		8A1B2C772B0A1ECF00D4E5F6 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C762B0A1ECF00D4E5F6 /* SpeechRecognitionService.swift */; };
+		8A1B2C792B0A1EDD00D4E5F6 /* ContextAwarenessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C782B0A1EDD00D4E5F6 /* ContextAwarenessService.swift */; };
+		8A1B2C7B2B0A1EEB00D4E5F6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C7A2B0A1EEB00D4E5F6 /* Models.swift */; };
+		8A1B2C7D2B0A1EF900D4E5F6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C7C2B0A1EF900D4E5F6 /* ChartView.swift */; };
+		8A1B2C7F2B0A1F0700D4E5F6 /* OrderBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C7E2B0A1F0700D4E5F6 /* OrderBookView.swift */; };
+		8A1B2C812B0A1F1500D4E5F6 /* SwapFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C802B0A1F1500D4E5F6 /* SwapFormView.swift */; };
+		8A1B2C832B0A1F2300D4E5F6 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C822B0A1F2300D4E5F6 /* WalletView.swift */; };
+		8A1B2C852B0A1F3100D4E5F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B2C842B0A1F3100D4E5F6 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1B2C4A2B0A1E3100D4E5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1B2C312B0A1E2F00D4E5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1B2C382B0A1E2F00D4E5F6;
+			remoteInfo = MultimodalTrading;
+		};
+		8A1B2C542B0A1E3100D4E5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1B2C312B0A1E2F00D4E5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1B2C382B0A1E2F00D4E5F6;
+			remoteInfo = MultimodalTrading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A1B2C392B0A1E2F00D4E5F6 /* MultimodalTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimodalTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1B2C3C2B0A1E2F00D4E5F6 /* MultimodalTradingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimodalTradingApp.swift; sourceTree = "<group>"; };
+		8A1B2C3E2B0A1E2F00D4E5F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1B2C402B0A1E3100D4E5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1B2C432B0A1E3100D4E5F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A1B2C492B0A1E3100D4E5F6 /* MultimodalTradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultimodalTradingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1B2C4D2B0A1E3100D4E5F6 /* MultimodalTradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimodalTradingTests.swift; sourceTree = "<group>"; };
+		8A1B2C532B0A1E3100D4E5F6 /* MultimodalTradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultimodalTradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1B2C572B0A1E3100D4E5F6 /* MultimodalTradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimodalTradingUITests.swift; sourceTree = "<group>"; };
+		8A1B2C592B0A1E3100D4E5F6 /* MultimodalTradingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimodalTradingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A1B2C662B0A1E5A00D4E5F6 /* TradingDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingDashboardView.swift; sourceTree = "<group>"; };
+		8A1B2C682B0A1E6B00D4E5F6 /* VisualInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualInterfaceView.swift; sourceTree = "<group>"; };
+		8A1B2C6A2B0A1E7900D4E5F6 /* VoiceInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInterfaceView.swift; sourceTree = "<group>"; };
+		8A1B2C6C2B0A1E8700D4E5F6 /* TextInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInterfaceView.swift; sourceTree = "<group>"; };
+		8A1B2C6E2B0A1E9700D4E5F6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		8A1B2C702B0A1EA500D4E5F6 /* TradingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingViewModel.swift; sourceTree = "<group>"; };
+		8A1B2C722B0A1EB300D4E5F6 /* ModalityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalityViewModel.swift; sourceTree = "<group>"; };
+		8A1B2C742B0A1EC100D4E5F6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8A1B2C762B0A1ECF00D4E5F6 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		8A1B2C782B0A1EDD00D4E5F6 /* ContextAwarenessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextAwarenessService.swift; sourceTree = "<group>"; };
+		8A1B2C7A2B0A1EEB00D4E5F6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8A1B2C7C2B0A1EF900D4E5F6 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		8A1B2C7E2B0A1F0700D4E5F6 /* OrderBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookView.swift; sourceTree = "<group>"; };
+		8A1B2C802B0A1F1500D4E5F6 /* SwapFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapFormView.swift; sourceTree = "<group>"; };
+		8A1B2C822B0A1F2300D4E5F6 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		8A1B2C842B0A1F3100D4E5F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1B2C362B0A1E2F00D4E5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C462B0A1E3100D4E5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C502B0A1E3100D4E5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1B2C302B0A1E2F00D4E5F6 = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C3B2B0A1E2F00D4E5F6 /* MultimodalTrading */,
+				8A1B2C4C2B0A1E3100D4E5F6 /* MultimodalTradingTests */,
+				8A1B2C562B0A1E3100D4E5F6 /* MultimodalTradingUITests */,
+				8A1B2C3A2B0A1E2F00D4E5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1B2C3A2B0A1E2F00D4E5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C392B0A1E2F00D4E5F6 /* MultimodalTrading.app */,
+				8A1B2C492B0A1E3100D4E5F6 /* MultimodalTradingTests.xctest */,
+				8A1B2C532B0A1E3100D4E5F6 /* MultimodalTradingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1B2C3B2B0A1E2F00D4E5F6 /* MultimodalTrading */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C8A2B0A1F7D00D4E5F6 /* App */,
+				8A1B2C892B0A1F7300D4E5F6 /* Views */,
+				8A1B2C882B0A1F6A00D4E5F6 /* ViewModels */,
+				8A1B2C872B0A1F6100D4E5F6 /* Services */,
+				8A1B2C862B0A1F5800D4E5F6 /* Models */,
+				8A1B2C402B0A1E3100D4E5F6 /* Assets.xcassets */,
+				8A1B2C422B0A1E3100D4E5F6 /* Preview Content */,
+			);
+			path = MultimodalTrading;
+			sourceTree = "<group>";
+		};
+		8A1B2C422B0A1E3100D4E5F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C432B0A1E3100D4E5F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A1B2C4C2B0A1E3100D4E5F6 /* MultimodalTradingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C4D2B0A1E3100D4E5F6 /* MultimodalTradingTests.swift */,
+			);
+			path = MultimodalTradingTests;
+			sourceTree = "<group>";
+		};
+		8A1B2C562B0A1E3100D4E5F6 /* MultimodalTradingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C572B0A1E3100D4E5F6 /* MultimodalTradingUITests.swift */,
+				8A1B2C592B0A1E3100D4E5F6 /* MultimodalTradingUITestsLaunchTests.swift */,
+			);
+			path = MultimodalTradingUITests;
+			sourceTree = "<group>";
+		};
+		8A1B2C862B0A1F5800D4E5F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C7A2B0A1EEB00D4E5F6 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A1B2C872B0A1F6100D4E5F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C742B0A1EC100D4E5F6 /* APIService.swift */,
+				8A1B2C762B0A1ECF00D4E5F6 /* SpeechRecognitionService.swift */,
+				8A1B2C782B0A1EDD00D4E5F6 /* ContextAwarenessService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A1B2C882B0A1F6A00D4E5F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C6E2B0A1E9700D4E5F6 /* AuthViewModel.swift */,
+				8A1B2C702B0A1EA500D4E5F6 /* TradingViewModel.swift */,
+				8A1B2C722B0A1EB300D4E5F6 /* ModalityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8A1B2C892B0A1F7300D4E5F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C8D2B0A1FA000D4E5F6 /* Modalities */,
+				8A1B2C8C2B0A1F9600D4E5F6 /* Components */,
+				8A1B2C8B2B0A1F8900D4E5F6 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A1B2C8A2B0A1F7D00D4E5F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C3C2B0A1E2F00D4E5F6 /* MultimodalTradingApp.swift */,
+				8A1B2C3E2B0A1E2F00D4E5F6 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A1B2C8B2B0A1F8900D4E5F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C662B0A1E5A00D4E5F6 /* TradingDashboardView.swift */,
+				8A1B2C842B0A1F3100D4E5F6 /* LoginView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8A1B2C8C2B0A1F9600D4E5F6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C7C2B0A1EF900D4E5F6 /* ChartView.swift */,
+				8A1B2C7E2B0A1F0700D4E5F6 /* OrderBookView.swift */,
+				8A1B2C802B0A1F1500D4E5F6 /* SwapFormView.swift */,
+				8A1B2C822B0A1F2300D4E5F6 /* WalletView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A1B2C8D2B0A1FA000D4E5F6 /* Modalities */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B2C682B0A1E6B00D4E5F6 /* VisualInterfaceView.swift */,
+				8A1B2C6A2B0A1E7900D4E5F6 /* VoiceInterfaceView.swift */,
+				8A1B2C6C2B0A1E8700D4E5F6 /* TextInterfaceView.swift */,
+			);
+			path = Modalities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1B2C382B0A1E2F00D4E5F6 /* MultimodalTrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1B2C5D2B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTrading" */;
+			buildPhases = (
+				8A1B2C352B0A1E2F00D4E5F6 /* Sources */,
+				8A1B2C362B0A1E2F00D4E5F6 /* Frameworks */,
+				8A1B2C372B0A1E2F00D4E5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultimodalTrading;
+			productName = MultimodalTrading;
+			productReference = 8A1B2C392B0A1E2F00D4E5F6 /* MultimodalTrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1B2C482B0A1E3100D4E5F6 /* MultimodalTradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1B2C602B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTradingTests" */;
+			buildPhases = (
+				8A1B2C452B0A1E3100D4E5F6 /* Sources */,
+				8A1B2C462B0A1E3100D4E5F6 /* Frameworks */,
+				8A1B2C472B0A1E3100D4E5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1B2C4B2B0A1E3100D4E5F6 /* PBXTargetDependency */,
+			);
+			name = MultimodalTradingTests;
+			productName = MultimodalTradingTests;
+			productReference = 8A1B2C492B0A1E3100D4E5F6 /* MultimodalTradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A1B2C522B0A1E3100D4E5F6 /* MultimodalTradingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1B2C632B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTradingUITests" */;
+			buildPhases = (
+				8A1B2C4F2B0A1E3100D4E5F6 /* Sources */,
+				8A1B2C502B0A1E3100D4E5F6 /* Frameworks */,
+				8A1B2C512B0A1E3100D4E5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1B2C552B0A1E3100D4E5F6 /* PBXTargetDependency */,
+			);
+			name = MultimodalTradingUITests;
+			productName = MultimodalTradingUITests;
+			productReference = 8A1B2C532B0A1E3100D4E5F6 /* MultimodalTradingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1B2C312B0A1E2F00D4E5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8A1B2C382B0A1E2F00D4E5F6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8A1B2C482B0A1E3100D4E5F6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8A1B2C382B0A1E2F00D4E5F6;
+					};
+					8A1B2C522B0A1E3100D4E5F6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8A1B2C382B0A1E2F00D4E5F6;
+					};
+				};
+			};
+			buildConfigurationList = 8A1B2C342B0A1E2F00D4E5F6 /* Build configuration list for PBXProject "MultimodalTrading" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1B2C302B0A1E2F00D4E5F6;
+			productRefGroup = 8A1B2C3A2B0A1E2F00D4E5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1B2C382B0A1E2F00D4E5F6 /* MultimodalTrading */,
+				8A1B2C482B0A1E3100D4E5F6 /* MultimodalTradingTests */,
+				8A1B2C522B0A1E3100D4E5F6 /* MultimodalTradingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1B2C372B0A1E2F00D4E5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1B2C442B0A1E3100D4E5F6 /* Preview Assets.xcassets in Resources */,
+				8A1B2C412B0A1E3100D4E5F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C472B0A1E3100D4E5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C512B0A1E3100D4E5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1B2C352B0A1E2F00D4E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1B2C7F2B0A1F0700D4E5F6 /* OrderBookView.swift in Sources */,
+				8A1B2C6F2B0A1E9700D4E5F6 /* AuthViewModel.swift in Sources */,
+				8A1B2C7D2B0A1EF900D4E5F6 /* ChartView.swift in Sources */,
+				8A1B2C6D2B0A1E8700D4E5F6 /* TextInterfaceView.swift in Sources */,
+				8A1B2C792B0A1EDD00D4E5F6 /* ContextAwarenessService.swift in Sources */,
+				8A1B2C3F2B0A1E2F00D4E5F6 /* ContentView.swift in Sources */,
+				8A1B2C712B0A1EA500D4E5F6 /* TradingViewModel.swift in Sources */,
+				8A1B2C832B0A1F2300D4E5F6 /* WalletView.swift in Sources */,
+				8A1B2C772B0A1ECF00D4E5F6 /* SpeechRecognitionService.swift in Sources */,
+				8A1B2C672B0A1E5A00D4E5F6 /* TradingDashboardView.swift in Sources */,
+				8A1B2C752B0A1EC100D4E5F6 /* APIService.swift in Sources */,
+				8A1B2C692B0A1E6B00D4E5F6 /* VisualInterfaceView.swift in Sources */,
+				8A1B2C7B2B0A1EEB00D4E5F6 /* Models.swift in Sources */,
+				8A1B2C732B0A1EB300D4E5F6 /* ModalityViewModel.swift in Sources */,
+				8A1B2C812B0A1F1500D4E5F6 /* SwapFormView.swift in Sources */,
+				8A1B2C852B0A1F3100D4E5F6 /* LoginView.swift in Sources */,
+				8A1B2C6B2B0A1E7900D4E5F6 /* VoiceInterfaceView.swift in Sources */,
+				8A1B2C3D2B0A1E2F00D4E5F6 /* MultimodalTradingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C452B0A1E3100D4E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1B2C4E2B0A1E3100D4E5F6 /* MultimodalTradingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1B2C4F2B0A1E3100D4E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1B2C5A2B0A1E3100D4E5F6 /* MultimodalTradingUITestsLaunchTests.swift in Sources */,
+				8A1B2C582B0A1E3100D4E5F6 /* MultimodalTradingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1B2C4B2B0A1E3100D4E5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1B2C382B0A1E2F00D4E5F6 /* MultimodalTrading */;
+			targetProxy = 8A1B2C4A2B0A1E3100D4E5F6 /* PBXContainerItemProxy */;
+		};
+		8A1B2C552B0A1E3100D4E5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1B2C382B0A1E2F00D4E5F6 /* MultimodalTrading */;
+			targetProxy = 8A1B2C542B0A1E3100D4E5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A1B2C5B2B0A1E3100D4E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1B2C5C2B0A1E3100D4E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1B2C5E2B0A1E3100D4E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultimodalTrading/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for voice commands.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to process voice commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A1B2C5F2B0A1E3100D4E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultimodalTrading/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for voice commands.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to process voice commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A1B2C612B0A1E3100D4E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultimodalTrading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultimodalTrading";
+			};
+			name = Debug;
+		};
+		8A1B2C622B0A1E3100D4E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultimodalTrading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultimodalTrading";
+			};
+			name = Release;
+		};
+		8A1B2C642B0A1E3100D4E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultimodalTrading;
+			};
+			name = Debug;
+		};
+		8A1B2C652B0A1E3100D4E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multimodal.trading.MultimodalTradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultimodalTrading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1B2C342B0A1E2F00D4E5F6 /* Build configuration list for PBXProject "MultimodalTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1B2C5B2B0A1E3100D4E5F6 /* Debug */,
+				8A1B2C5C2B0A1E3100D4E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1B2C5D2B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1B2C5E2B0A1E3100D4E5F6 /* Debug */,
+				8A1B2C5F2B0A1E3100D4E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1B2C602B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1B2C612B0A1E3100D4E5F6 /* Debug */,
+				8A1B2C622B0A1E3100D4E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1B2C632B0A1E3100D4E5F6 /* Build configuration list for PBXNativeTarget "MultimodalTradingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1B2C642B0A1E3100D4E5F6 /* Debug */,
+				8A1B2C652B0A1E3100D4E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1B2C312B0A1E2F00D4E5F6 /* Project object */;
+}

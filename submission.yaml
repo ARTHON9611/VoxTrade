@@ -1,0 +1,65 @@
+project:
+  name: "VoxTrade"
+  tagline: "Voice-activated trading platform with AI insights and OKX DEX API on Solana"
+  track: "OKX Solana Accelerate Hackathon"
+  
+team:
+  name: "Multimodal Trading Team"
+  members:
+    - name: "Team Lead"
+      role: "Project Manager & Blockchain Developer"
+    - name: "AI Specialist"
+      role: "Machine Learning Engineer"
+    - name: "Frontend Developer"
+      role: "UI/UX Designer"
+    - name: "Blockchain Engineer"
+      role: "Solana Integration Specialist"
+
+links:
+  demo: "https://cwqwvbkk.manus.space/"
+  repository: "https://github.com/ARTHON9611/VoxTrade"
+  presentation: "https://cwqwvbkk.manus.space/"
+
+technical:
+  blockchain: "Solana"
+  languages:
+    - "JavaScript"
+    - "React"
+    - "Solana Web3.js"
+  apis:
+    - "OKX DEX API"
+  features:
+    - "AI-powered market analysis"
+    - "Sentiment analysis for trading decisions"
+    - "Enhanced OKX DEX integration"
+    - "Solana wallet connectivity"
+    - "Arbitrage detection system"
+    - "Context-aware user interface"
+
+okx_integration:
+  endpoints_used:
+    - "/market/tickers"
+    - "/market/ticker"
+    - "/market/books"
+    - "/market/candles"
+    - "/trade/order"
+    - "/trade/batch-orders"
+    - "/trade/cancel-order"
+    - "/trade/orders-history"
+    - "/account/balance"
+    - "/dex/tokens"
+    - "/dex/swap/quote"
+  features_leveraged:
+    - "Real-time market data retrieval"
+    - "Multiple order types support"
+    - "Solana token information"
+    - "Swap quotes for token exchanges"
+    - "Error handling and fallback mechanisms"
+
+project_description: >
+  VoxTrade is a voice-activated trading platform that combines artificial 
+  intelligence, sentiment analysis, and real-time market data to provide 
+  traders with personalized insights through intuitive voice commands. Built on 
+  Solana and integrated with the OKX DEX API, VoxTrade offers a comprehensive 
+  trading experience with features like context-aware UI, arbitrage detection, 
+  and natural language processing.

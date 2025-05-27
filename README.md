@@ -123,7 +123,7 @@ The text interface supports a command syntax for efficient trading:
 
 ### Production Deployment
 
-See the [Deployment Guide](docs/deployment.md) for detailed instructions on deploying to production environments.
+See the [Deployment Guide](deployment.md) for detailed instructions on deploying to production environments.
 
 ## Contributing
 
